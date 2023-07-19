@@ -1,0 +1,49 @@
+* {
+  /* `otf-font-awesome` is required to be installed for icons */
+  font-family: "JetBrainsMono Nerd Font", "JetBrains Mono", "Noto Sans CJK SC";
+  font-size: 13px;
+}
+
+window#waybar {
+  background-color: transparent;
+  color: #ffffff;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+#clock,
+#battery,
+#cpu,
+#memory,
+#disk,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#wireplumber,
+#custom-media,
+#tray,
+#mode,
+#idle_inhibitor,
+#scratchpad,
+#mpd {
+  padding: 0 10px;
+  color: #ffffff;
+}
+
+#clock {
+  background-color: transparent;
+}
+
+#battery {
+  background-color: transparent;
+  color: #ffffff;
+}
+
+#network {
+  background-color: transparent;
+}
+
+#tray {
+  background-color: transparent;
+}
