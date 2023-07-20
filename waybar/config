@@ -7,11 +7,11 @@
     "hyprland/window"
   ],
   "modules-center": [
-    "clock"
+    "clock",
+    "network"
   ],
   "modules-right": [
     "bluetooth",
-    "network",
     "mpris",
     "tray",
     "battery"
@@ -21,7 +21,8 @@
     "icon-size": 24
   },
   "network": {
-    "interface": "WiFi",
+    "interface": "wlp4s0",
+    "format": "WiFi",
     "format-wifi": "󱚺  {bandwidthUpBytes} 󱚶  {bandwidthDownBytes}",
     "format-ethernet": " {bandwidthUpBytes}  {bandwidthDownBytes} ",
     "tooltip-format-wifi": "{essid} ({signalStrength}%)",
