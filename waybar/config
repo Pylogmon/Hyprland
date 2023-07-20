@@ -1,7 +1,7 @@
 {
   "layer": "top",
   "position": "top",
-  "height": 25,
+  "height": 40,
   "spacing": 0,
   "modules-left": [
     "hyprland/window"
@@ -17,10 +17,11 @@
     "battery"
   ],
   "tray": {
-    "spacing": 8
+    "spacing": 12,
+    "icon-size": 24
   },
   "network": {
-    "interface": "wlp4s0",
+    "interface": "WiFi",
     "format-wifi": "󱚺  {bandwidthUpBytes} 󱚶  {bandwidthDownBytes}",
     "format-ethernet": " {bandwidthUpBytes}  {bandwidthDownBytes} ",
     "tooltip-format-wifi": "{essid} ({signalStrength}%)",
@@ -32,7 +33,8 @@
     "tooltip-format": "{controller_alias}\t{controller_address}\n\n{num_connections} connected",
     "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{num_connections} connected\n\n{device_enumerate}",
     "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
-    "tooltip-format-enumerate-connected-battery": "{device_alias}\t{device_address}\t{device_battery_percentage}%"
+    "tooltip-format-enumerate-connected-battery": "{device_alias}\t{device_address}\t{device_battery_percentage}%",
+    "on-click": "blueberry"
   },
   "mpris": {
     "format": "{status_icon}",
@@ -59,6 +61,7 @@
       "",
       ""
     ],
-    "max-length": 25
+    "max-length": 25,
+    "on-click": "wlogout"
   }
 }

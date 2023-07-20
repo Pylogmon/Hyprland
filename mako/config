@@ -10,9 +10,9 @@ on-touch=dismiss
 #on-notify=exec mpv /usr/share/sounds/freedesktop/stereo/message.oga
 
 # STYLE OPTIONS
-font=JetBrainsMono Nerd Font 14
-width=300
-height=100
+font=JetBrainsMono Nerd Font 18
+width=600
+height=400
 margin=10
 padding=15
 border-size=1
@@ -28,7 +28,7 @@ default-timeout=5000
 ignore-timeout=0
 max-visible=5
 layer=overlay
-anchor=top-right
+anchor=top-center
 
 background-color=#373737
 text-color=#dadada
