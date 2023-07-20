@@ -28,6 +28,7 @@
     "tooltip-format-ethernet": "{ifname}"
   },
   "bluetooth": {
+    "format": "",
     "format-connected": "",
     "format-connected-battery": " {device_battery_percentage}%",
     "tooltip-format": "{controller_alias}\t{controller_address}\n\n{num_connections} connected",
@@ -38,10 +39,10 @@
   },
   "mpris": {
     "format": "{status_icon}",
-    "format-paused": "{status_icon}",
     "status-icons": {
-      "paused": "▶",
-      "playing": "⏸"
+      "paused": "  ⏸ ",
+      "playing": "  ▶ ",
+      "stopped": "  󰎄 "
     },
     "ignored-players": [
       "firefox"
