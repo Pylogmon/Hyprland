@@ -4,7 +4,7 @@
   "height": 40,
   "spacing": 0,
   "modules-left": [
-    "hyprland/window"
+    "hyprland/workspaces"
   ],
   "modules-center": [
     "clock",
@@ -65,5 +65,17 @@
     ],
     "max-length": 25,
     "on-click": "wlogout"
+  },
+  "hyprland/workspaces": {
+    "format": "{id}: {icon}",
+    "format-icons": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": "",
+      "5": "",
+      "active": "",
+      "default": ""
+    }
   }
 }
