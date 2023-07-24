@@ -47,3 +47,8 @@ window#waybar {
 #tray {
   background-color: transparent;
 }
+
+#workspaces button.active,
+#workspaces button:hover {
+  background-color: #3191ab;
+}

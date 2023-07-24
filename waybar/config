@@ -11,9 +11,10 @@
     "network"
   ],
   "modules-right": [
+    "tray",
     "bluetooth",
     "mpris",
-    "tray",
+    "wireplumber",
     "battery"
   ],
   "tray": {
@@ -41,9 +42,9 @@
   "mpris": {
     "format": "{status_icon}",
     "status-icons": {
-      "paused": "  ⏸ ",
-      "playing": "  ▶ ",
-      "stopped": "  󰎄 "
+      "paused": "  ⏸",
+      "playing": "  ▶",
+      "stopped": "  󰎄"
     },
     "ignored-players": [
       "firefox"
@@ -77,5 +78,15 @@
       "active": "",
       "default": ""
     }
+  },
+  "wireplumber": {
+    "format": " {icon} {volume}%",
+    "format-muted": "",
+    "on-click": "helvum",
+    "format-icons": [
+      "",
+      "",
+      ""
+    ]
   }
 }
